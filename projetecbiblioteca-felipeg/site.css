@@ -1,0 +1,350 @@
+body {
+    background-color:rgb(119, 205, 255);
+}
+
+.cabecalho {
+    display: flex;
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    height: 100px;
+    flex-direction: row;
+    border-bottom:whitesmoke 2.5px solid;
+    background-color:rgb(26, 135, 224);
+    size-adjust: auto;
+    position:fixed;
+}
+
+.logo {
+    height: 200px;
+}
+
+.logo img {
+    height: 170px;
+    padding-bottom: 90px;
+    padding-left: 50px;
+    margin-top: 10px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 4%;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: Oswald;
+}
+
+.menu a {
+    padding-left: 20px;
+    padding-top: 20%;
+    color: white;
+}
+
+li {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.autenticacao {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    position: relative;
+    padding-left: 300px;
+    left: 20%;
+    font-size: 20px;
+    font-family: Oswald;
+}
+
+.autenticacao a {
+    padding-left: 20px;
+    padding-top: 20%;
+    color: whitesmoke;
+}
+
+.botaodestaque {
+    position: relative;
+    padding-right: 100px;
+}
+
+.button{ 
+    flex-direction:column-reverse;
+    justify-content: space-around;
+    height: 37px;
+    width: 43px;
+    position: relative;
+    left: 76%;
+    background-color: #7C2AE8;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-top: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-color: skyblue;
+    margin-bottom: 15px;
+    top: 10px;
+}
+.buttonp{
+    border:1px solid #0b7dda;
+    right: 100px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Style the search field */
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    border-radius: 10px 0px 0px 10px;
+    background: #f1f1f1;
+}
+
+
+/* Style the submit button */
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #7C2AE8;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    /* Prevent double borders */
+    cursor: pointer;
+    border-radius: 0px 10px 10px 0px;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+
+/* Clear floats */
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.searchbutton {
+    border-radius: 5px 5px;
+}
+
+.searchbutton::placeholder {
+    font-weight: lighter;
+}
+a:link{
+    text-decoration:none;
+    color:white
+}
+.pagina {
+    margin-top: 120px;
+    color: white;
+    margin-left: 200px;
+}
+
+.emalta {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 200px;
+}
+
+.recentes {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 200px;
+}
+.famosos {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 200px;
+}
+
+
+.livros-img {
+    width: 200px;
+    height: 300px;
+    margin-right: 10px;
+}
+
+.livros {
+    display: flex;
+    justify-content:baseline;
+    width: 350px;
+    background-color:rgb(31, 31, 31);
+    border: 1px solid rgb(88, 88, 88); 
+    border-radius: 5px;
+}
+.sobre{
+    height: 300px;   
+}
+.title{
+    height: 20px;
+}
+.font-{
+    overflow-y:scroll;
+    font-size: 14px;
+    height: 160px;
+}
+.font-::-webkit-scrollbar{
+    width: 3px;
+}
+.font-::-webkit-scrollbar-thumb{
+    background: gray;
+    border-radius: 10px;
+}
+.btn{
+    color:white;
+    background-color: rgb(80, 79, 79);
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid rgb(170, 170, 170);
+    margin-bottom: 100px;
+}
+#rodape{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    height: 20px;
+    font-size: 10px;
+    color: white;
+    background-color: rgb(43, 43, 43);
+ 
+}
+#menu {
+    z-index: 2;
+  }
+  .menu-bg, #menu {
+    top: 0;
+    left: 0;
+    position: absolute;
+
+  }
+  #menu-bar {
+    width: 45px;
+    height: 40px;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
+  }
+  
+  .bar {
+    height: 5px;
+    width: 70%;
+   
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+  
+  #bar1 {
+    transform: translateY(-4px);
+  }
+  
+  #bar3 {
+    transform: translateY(4px);
+
+  }
+  
+  
+  .nav {
+    transition: 0.3s ease;
+    display: none;
+    margin-left: 550pt;
+   
+
+    
+    
+  }
+  
+  .nav ul {
+    padding: 0 22px;
+    margin-left: 80%;
+   
+  }
+  
+  .nav li {
+    list-style: none;
+    padding: 12px 0;
+    margin-left: 80%;
+   
+    
+  }
+  
+  .nav li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+  
+    
+  }
+  
+  .nav li a:hover {
+    font-weight: bold;
+    color:white;
+  }
+  
+  
+  .menu-bg {
+    z-index: 1;
+    width: 0;
+    height: 0;
+    margin: 30px 0 20px 20px;
+    background:black; 
+    margin-left: 80%;
+    
+    transition: 0.3s ;
+  }.change {
+    display: block;
+  }
+  
+  .change .bar {
+    background-color: rgb(112, 18, 150);
+  }
+  
+  .change #bar1 {
+    transform: translateY(4px) rotateZ(-45deg);
+  }
+  
+  .change #bar2 {
+    opacity: 0;
+  }
+  
+  .change #bar3 {
+    transform: translateY(-6px) rotateZ(45deg);
+  }
+  
+  .change-bg {
+      width: 280px;
+      height: 839px;
+      transform: translate(-60%,-30%);
+      margin-left: 80%;
+  }
+  
+#titulo{
+    color: white;
+    margin-top: 2px;
+    margin-left: 45%;
+    font-size: 40px;
+    position: fixed;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }  
+
+
+
+
